@@ -1,10 +1,10 @@
-FROM node:16-aline as build
+FROM node:16-alpine as build
 
 # copy code and run build
 WORKDIR /app
 COPY ./*.json ./
 COPY ./src ./src
-RUN npm install && npm run build
+RUN npm install --no-audit && npm run build
 
 FROM nginx:stable-alpine
 
