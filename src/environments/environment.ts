@@ -4,11 +4,9 @@
 
 export const environment = {
   production: false,
-  ce_api_config: {
-    ws_url: "http://localhost:3001",
+  ce_api_config: {   
     api_url: "http://localhost:3000",
-    app_version: "dev",    
-    ce_event_url: 'http://localhost:3016',
+    app_version: "dev",        
     main_title: 'Ce Forms Manager'    
   }
 };
