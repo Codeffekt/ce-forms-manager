@@ -20,17 +20,21 @@
     "@angular/platform-browser": "^18.2.12",
     "@angular/platform-browser-dynamic": "^18.2.12",
     "@angular/router": "^18.2.12",
-    "@codeffekt/ce-admin": "^16.0.4",
-    "@codeffekt/ce-barcode": "^16.0.1",
-    "@codeffekt/ce-code-editor": "^16.0.0",
-    "@codeffekt/ce-core": "^16.0.5",
-    "@codeffekt/ce-core-data": "^1.1.2",
+    "@codeffekt/ce-admin": "^18.0.3",
+    "@codeffekt/ce-barcode": "^18.0.1",
+    "@codeffekt/ce-code-editor": "^18.0.0",
+    "@codeffekt/ce-core": "^18.0.4",
+    "@codeffekt/ce-core-data": "^1.2.2",
     "@codeffekt/ce-events-data": "^1.1.0",
-    "@codeffekt/ce-form-coordinates": "^16.0.0",
-    "@codeffekt/ce-form-creator": "^16.0.0",
-    "@ngxs/devtools-plugin": "^3.8.2",
-    "@ngxs/store": "^3.8.2",
+    "@codeffekt/ce-form-coordinates": "^18.0.0",
+    "@codeffekt/ce-form-creator": "^18.0.5",
+    "@codeffekt/ce-form-plotly": "^18.0.1",
+    "@ngxs/devtools-plugin": "^18.1.6",
+    "@ngxs/logger-plugin": "^18.1.6",
+    "@ngxs/store": "^18.1.6",
+    "angular-plotly.js": "^6.0.0",
     "material-design-icons-iconfont": "^6.7.0",
+    "plotly.js-dist-min": "^2.35.2",
     "rxjs": "^7.8.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
@@ -47,6 +51,6 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "typescript": "^5.7.2"
+    "typescript": "^5.5.4"
   }
 }

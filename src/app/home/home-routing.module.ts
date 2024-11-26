@@ -20,17 +20,9 @@ const routes: Routes = [
         loadChildren: () => import('../users/users.module').then(m => m.UsersModule)
     },
     {
-        path: 'projects',
-        loadChildren: () => import('../projects/projects.module').then(m => m.ProjectsModule)
-    },
-    {
-        path: 'media',
-        loadChildren: () => import('../media/media.module').then(m => m.MediaModule)
-    },
-    {
-        path: 'processings',
-        loadChildren: () => import('../processings/processings.module').then(m => m.ProcessingsModule)
-    }
+        path: 'spaces', 
+        loadChildren: () => import('../spaces/spaces.module').then(m => m.SpacesModule),       
+    },    
 ];
 
 @NgModule({

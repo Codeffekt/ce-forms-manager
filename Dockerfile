@@ -1,4 +1,4 @@
-FROM node:18-aline as build
+FROM node:18-alpine as build
 
 # copy code and run build
 WORKDIR /app
