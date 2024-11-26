@@ -4,7 +4,7 @@ FROM node:18-alpine as build
 WORKDIR /app
 COPY ./*.json ./
 COPY ./src ./src
-RUN npm install && npm run build
+RUN npm install --no-audit && npm run build
 
 FROM nginx:stable-alpine
 
